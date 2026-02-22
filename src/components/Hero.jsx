@@ -16,10 +16,11 @@ const Hero = () => {
         </div>
 
         <div className="flex-1 flex justify-center">
+          {/* This Unsplash link is reliable and won't change! */}
           <img 
-            src="https://raw.githubusercontent.com/gist/adityaswa/780c7b64f3a763c32e5f32eb0047321e/raw/505364816159ca2b58a183d258cc5c2e92c53013/female_developer.svg" 
-            alt="Fahmina Coding" 
-            className="w-full max-w-[450px] drop-shadow-2xl"
+            src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=800&q=80" 
+            alt="Fahmina Software Engineering" 
+            className="w-full max-w-[450px] rounded-3xl shadow-2xl border-4 border-purple-100"
           />
         </div>
       </div>
