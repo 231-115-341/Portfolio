@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className="flex-1 flex justify-center">
           <img 
-            src="https://img.freepik.com/free-vector/female-software-engineer-working-laptop-coding-concept-flat-style-vector-illustration_1150-65313.jpg" 
+            src="https://raw.githubusercontent.com/gist/adityaswa/780c7b64f3a763c32e5f32eb0047321e/raw/505364816159ca2b58a183d258cc5c2e92c53013/female_developer.svg" 
             alt="Fahmina Coding" 
             className="w-full max-w-[450px] drop-shadow-2xl"
           />
