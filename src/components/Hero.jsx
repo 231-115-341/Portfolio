@@ -27,10 +27,10 @@ const Hero = () => {
 
         <div className="flex-1 flex justify-center">
           <img 
-            src="https://img.freepik.com/free-vector/programmer-working-flat-style_23-2148501741.jpg" 
-            alt="Fahmina Software Engineering" 
-            className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
-          />
+              src="https://storyset.com/raw/illustration/computer-programming-animate.svg" 
+              alt="Fahmina Software Engineering" 
+              className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
+           />
         </div>
       </div>
     </section>
