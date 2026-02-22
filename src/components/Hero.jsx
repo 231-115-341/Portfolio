@@ -1,6 +1,4 @@
 import React from 'react';
-// 1. Add this import line at the top
-import heroImg from '../assets/hero-dev.svg'; 
 
 const Hero = () => {
   return (
@@ -15,23 +13,13 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-bold text-gray-800 mb-8 border-l-4 border-purple-500 pl-4">
             Computer Science Student | Frontend Developer | Java | ML | React
           </p>
-
-          <div className="flex gap-4">
-            <a href="#projects" className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700">
-              View My Work
-            </a>
-            <a href="#contact" className="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50">
-              Contact Me
-            </a>
-          </div>
         </div>
 
         <div className="flex-1 flex justify-center">
-          {/* 2. Change the src to use the imported heroImg */}
           <img 
-            src={heroImg} 
-            alt="Fahmina Developer Illustration" 
-            className="w-full max-w-[500px] drop-shadow-2xl"
+            src="https://img.freepik.com/free-vector/female-software-engineer-working-laptop-coding-concept-flat-style-vector-illustration_1150-65313.jpg" 
+            alt="Fahmina Coding" 
+            className="w-full max-w-[450px] drop-shadow-2xl"
           />
         </div>
       </div>
