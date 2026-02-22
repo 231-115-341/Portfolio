@@ -1,4 +1,6 @@
 import React from 'react';
+// 1. Add this import line at the top
+import heroImg from '../assets/hero-dev.svg'; 
 
 const Hero = () => {
   return (
@@ -13,23 +15,23 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-bold text-gray-800 mb-8 border-l-4 border-purple-500 pl-4">
             Computer Science Student | Frontend Developer | Java | ML | React
           </p>
-          
-          {/* Added a small CTA button to make it look more professional */}
+
           <div className="flex gap-4">
-            <a href="#projects" className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+            <a href="#projects" className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700">
               View My Work
             </a>
-            <a href="#contact" className="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
+            <a href="#contact" className="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50">
               Contact Me
             </a>
           </div>
         </div>
 
         <div className="flex-1 flex justify-center">
+          {/* 2. Change the src to use the imported heroImg */}
           <img 
-               src="https://cdni.iconscout.com/illustration/premium/thumb/female-developer-working-on-project-illustration-download-in-svg-png-gif-file-formats--girl-lady-woman-character-pack-people-illustrations-5381862.png" 
-               alt="Fahmina Cartoon Developer" 
-               className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
+            src={heroImg} 
+            alt="Fahmina Developer Illustration" 
+            className="w-full max-w-[500px] drop-shadow-2xl"
           />
         </div>
       </div>
