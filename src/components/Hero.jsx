@@ -27,10 +27,10 @@ const Hero = () => {
 
         <div className="flex-1 flex justify-center">
           <img 
-              src="https://storyset.com/raw/illustration/computer-programming-animate.svg" 
-              alt="Fahmina Software Engineering" 
-              className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
-           />
+               src="https://cdni.iconscout.com/illustration/premium/thumb/female-developer-working-on-project-illustration-download-in-svg-png-gif-file-formats--girl-lady-woman-character-pack-people-illustrations-5381862.png" 
+               alt="Fahmina Cartoon Developer" 
+               className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
+          />
         </div>
       </div>
     </section>
