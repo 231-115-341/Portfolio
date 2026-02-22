@@ -13,13 +13,23 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-bold text-gray-800 mb-8 border-l-4 border-purple-500 pl-4">
             Computer Science Student | Frontend Developer | Java | ML | React
           </p>
+          
+          {/* Added a small CTA button to make it look more professional */}
+          <div className="flex gap-4">
+            <a href="#projects" className="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+              View My Work
+            </a>
+            <a href="#contact" className="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
+              Contact Me
+            </a>
+          </div>
         </div>
 
         <div className="flex-1 flex justify-center">
           <img 
-            src="https://img.freepik.com/free-vector/female-software-engineer-working-laptop-coding-concept-flat-style-vector-illustration_1150-65313.jpg" 
-            alt="Fahmina Coding" 
-            className="w-full max-w-[450px] drop-shadow-2xl"
+            src="https://img.freepik.com/free-vector/programmer-working-flat-style_23-2148501741.jpg" 
+            alt="Fahmina Software Engineering" 
+            className="w-full max-w-[500px] drop-shadow-2xl rounded-2xl"
           />
         </div>
       </div>
