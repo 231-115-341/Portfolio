@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion"; // 1. Important: Import motion
 
 function Projects() {
   const projects = [
@@ -21,7 +22,13 @@ function Projects() {
       <h2 className="text-4xl font-extrabold mb-12 text-purple-600 uppercase">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto px-4">
         {projects.map((project, idx) => (
-          <div key={idx} className="bg-purple-50 rounded-3xl overflow-hidden shadow-lg border border-purple-100">
+          /* 2. Changed <div> to <motion.div> and added whileHover */
+          <motion.div 
+            key={idx} 
+            whileHover={{ y: -10 }} 
+            transition={{ type: "spring", stiffness: 300 }}
+            className="bg-purple-50 rounded-3xl overflow-hidden shadow-lg border border-purple-100"
+          >
             <img src={project.image} alt={project.title} className="w-full h-64 object-cover" />
             <div className="p-8">
               <h3 className="text-2xl font-bold mb-3 text-gray-900">{project.title}</h3>
@@ -31,7 +38,7 @@ function Projects() {
                 <FaGithub /> GitHub
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
